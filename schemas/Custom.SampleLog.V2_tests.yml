@@ -40,7 +40,7 @@ result: |
     "tag": "test",
     "time": "2019-11-14T13:12:46.156Z",
     "view_duration_s": 0.00039,
-    "p_log_type": "Custom.SampleLog.V1",
+    "p_log_type": "Custom.SampleLog.V2",
     "p_row_id": "acde48001122a480ca9eda991001",
     "p_event_time": "2019-11-14T13:12:46.156Z",
     "p_parse_time": "2022-04-04T16:12:41.059224Z",
