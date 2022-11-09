@@ -1,4 +1,4 @@
-name: Panther Analysis CI/CD workflow for Custom Schemas
+name: Panther Analysis CI/CD workflow
 
 permissions:
   id-token: write
@@ -7,6 +7,11 @@ permissions:
 on:
   push:
     paths:
+      - "data_models/**"
+      - "lookup_tables/**"
+      - "policies/**"
+      - "queries/**"
+      - "rules/**"
       - "schemas/**"
       - ".github/workflows/**"
 
