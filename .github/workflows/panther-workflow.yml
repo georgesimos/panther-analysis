@@ -42,7 +42,7 @@ jobs:
       - name: Make pantherlog executable
         run: sudo chmod +x pantherlog
       - name: Perform schema tests with pantherlog
-        run: ./pantherlog test detections/schemas
+        run: ./pantherlog test schemas/
   run_unit_tests:    
     runs-on: ubuntu-latest
     name: Run unit tests on detections using the panther_analysis_tool
