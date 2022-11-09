@@ -7,11 +7,6 @@ permissions:
 on:
   push:
     paths:
-      - "data_models/**"
-      - "lookup_tables/**"
-      - "policies/**"
-      - "queries/**"
-      - "rules/**"
       - "schemas/**"
       - ".github/workflows/**"
 
